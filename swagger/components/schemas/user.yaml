@@ -1,0 +1,28 @@
+type: object
+required:
+  - _id
+  - name
+  - email
+  - createdAt
+  - updatedAt
+properties:
+  _id:
+    description: 'User id'
+    type: string
+    example: 65e4decdd286b30065d54af9
+  name:
+    description: 'User name'
+    type: string
+    example: 'John Doe'
+  email:
+    description: 'User email'
+    type: string
+    example: 'example@gmail.com'
+  createdAt:
+    description: 'Created time'
+    type: string
+    example: '2025-01-09T11:56:45.594+00:00'
+  updatedAt:
+    description: 'Updated time'
+    type: string
+    example: '2025-01-11T16:23:59.089+00:00'
